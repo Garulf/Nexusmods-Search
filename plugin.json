@@ -8,5 +8,5 @@
     "Language": "python",
     "Website": "https://github.com/Garulf/nexusmods-search",
     "IcoPath": "./icon.png",
-    "ExecuteFileName": "entry.py"
+    "ExecuteFileName": "run.py"
 }
