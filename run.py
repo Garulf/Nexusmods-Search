@@ -6,7 +6,7 @@ sys.path.append(plugindir)
 sys.path.append(os.path.join(plugindir, "lib"))
 sys.path.append(os.path.join(plugindir, "plugin"))
 
-from plugin.nexusmods-search import Nexusmods-Search
+from plugin.nexusmods_search import NexusmodsSearch
 
 if __name__ == "__main__":
-    Nexusmods-Search()
+    NexusmodsSearch()
