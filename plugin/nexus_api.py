@@ -8,11 +8,25 @@ BASE_URL = 'https://www.nexusmods.com'
 IMAGE_URL = "https://staticdelivery.nexusmods.com"
 SEARCH_URL = 'https://search.nexusmods.com'
 SEARCH_ENDPOINT = '/mods'
+GAMES_JSON = './plugin/games.json'
 
 class NexusAPI(object):
 
     def __init__(self):
         self._session = requests.Session()
+        self._games_data = None
+
+    @property
+    def games_data(self):
+        if self._games_data is None:
+            with open(GAMES_JSON, "r") as f:
+                self._games_data = json.load(f)
+        return self._games_data
+
+    def game(self, id):
+        for item in self.games_data:
+            if item["id"] == id:
+                return item
 
     def request(self, method, url, endpoint, params=None, verify_ssl=True, timeout=60):
         url = f"{url}{endpoint}"
