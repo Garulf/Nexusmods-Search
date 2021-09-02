@@ -25,20 +25,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
       - name: Run Script
+        id: script
         shell: bash
         env:
           NEXUS_KEY: ${{ secrets.NEXUS_KEY }}
         run: |
           python ./scripts/update_games.py "$NEXUS_KEY"
       - name: Commit changes
-        if: success()
+        if: steps.script.outcome != 'success'
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           git add ./plugin.json
           git commit -m "Update games listing"
       - name: Push changes
-        if: success()
+        if: steps.script.outcome != 'success'
         uses: ad-m/github-push-action@v0.6.0
         with:
           branch: ${{ github.ref }}

@@ -58,9 +58,10 @@ def main():
     if changes > 0:
         print("Saving changes..")
         save_games(new_games)
+        sys.exit(1)
     else:
         print("Exiting...")
-        sys.exit(1)
+        sys.exit(0)
 
 
 
