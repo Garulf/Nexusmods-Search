@@ -4,7 +4,7 @@
   "Name": "nexusmods-search",
   "Description": "Search nexusmods.com",
   "Author": "Garulf",
-  "Version": "0.1.0",
+  "Version": "0.1.1",
   "Language": "python",
   "Website": "https://github.com/Garulf/nexusmods-search",
   "IcoPath": "./icon.png",
