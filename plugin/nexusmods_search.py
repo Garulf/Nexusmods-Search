@@ -53,7 +53,7 @@ class NexusmodsSearch(Flox):
                 if match:
                     self.add_item(
                         title=game["name"],
-                        subtitle=f"Search for {game['name']} mods",
+                        subtitle=f"Filter Search for {game['name']} only.",
                         method='apply_filter',
                         parameters=[game["domain_name"]],
                         hide=True,
