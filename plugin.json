@@ -2,7 +2,7 @@
   "ID": "3C62514E3C8644D583E3F12202F11161",
   "ActionKeyword": "nx",
   "Name": "nexusmods-search",
-  "Description": "Search and cast your Plex Media Library",
+  "Description": "Search nexusmods.com",
   "Author": "Garulf",
   "Version": "0.1.0",
   "Language": "python",
