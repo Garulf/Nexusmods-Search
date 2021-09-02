@@ -27,19 +27,20 @@ jobs:
       - name: Run Script
         id: script
         shell: bash
+        continue-on-error: true
         env:
           NEXUS_KEY: ${{ secrets.NEXUS_KEY }}
         run: |
           python ./scripts/update_games.py "$NEXUS_KEY"
       - name: Commit changes
-        if: steps.script.outcome != 'success'
+        if: steps.script.outcome == 'failure'
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add ./plugin.json
-          git commit -m "Update games listing"
+          git add ./plugin/games.json
+          git commit -m "Workflow: Update games listing"
       - name: Push changes
-        if: steps.script.outcome != 'success'
+        if: steps.script.outcome == 'failure'
         uses: ad-m/github-push-action@v0.6.0
         with:
           branch: ${{ github.ref }}
