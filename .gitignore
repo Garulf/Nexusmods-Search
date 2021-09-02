@@ -121,4 +121,4 @@ flox
 .vscode/
 bin/
 
-scripts/
+scripts/test.json
