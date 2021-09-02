@@ -1,5 +1,5 @@
 # Nexusmods-Search
-FLow Launcher plugin to search [nexusmods.com](https://www.nexusmods.com/)
+Flow Launcher plugin to search [nexusmods.com](https://www.nexusmods.com/)
 
 ## Installation:
 
