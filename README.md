@@ -3,7 +3,7 @@ Flow Launcher plugin to search [nexusmods.com](https://www.nexusmods.com/)
 
 ## Installation:
 
-Simple type `pm install nexusmods-search` in FLow Launcher
+Simple type `pm install nexusmods-search` in Flow Launcher
 
 ## Usage:
 
