@@ -35,6 +35,7 @@ class NexusAPI(object):
         return response
 
     def search(self, query, game_id=0, blocked_tags=[1429,1073,1428,1040,1068], blocked_authors=None, include_adult=1):
+        query = query.replace(" ", ",")
         params = (
             ('terms', query),
             ('game_id', game_id),
