@@ -1,7 +1,7 @@
 [
     {
         "approved_date": 1,
-        "authors": 3637,
+        "authors": 3639,
         "categories": [
             {
                 "category_id": 1,
@@ -190,20 +190,20 @@
             }
         ],
         "domain_name": "morrowind",
-        "downloads": 63157459,
-        "file_count": 44493,
-        "file_endorsements": 1752435,
+        "downloads": 63266685,
+        "file_count": 44554,
+        "file_endorsements": 1755215,
         "file_views": 131108692,
         "forum_url": "https://forums.nexusmods.com/index.php?/forum//games/8-morrowind/",
         "genre": "RPG",
         "id": 100,
-        "mods": 11992,
+        "mods": 12009,
         "name": "Morrowind",
         "nexusmods_url": "https://www.nexusmods.com/morrowind"
     },
     {
         "approved_date": 1,
-        "authors": 11768,
+        "authors": 11771,
         "categories": [
             {
                 "category_id": 20,
@@ -492,14 +492,14 @@
             }
         ],
         "domain_name": "oblivion",
-        "downloads": 274183788,
-        "file_count": 68571,
-        "file_endorsements": 5595939,
+        "downloads": 274434448,
+        "file_count": 68611,
+        "file_endorsements": 5599050,
         "file_views": 932047879,
         "forum_url": "https://forums.nexusmods.com/index.php?/forum//games/10-oblivion/",
         "genre": "RPG",
         "id": 101,
-        "mods": 31897,
+        "mods": 31908,
         "name": "Oblivion",
         "nexusmods_url": "https://www.nexusmods.com/oblivion"
     },
@@ -599,9 +599,9 @@
             }
         ],
         "domain_name": "shadowrunreturns",
-        "downloads": 169516,
+        "downloads": 169565,
         "file_count": 265,
-        "file_endorsements": 11637,
+        "file_endorsements": 11641,
         "file_views": 1644433,
         "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
         "genre": "RPG",
@@ -109787,5 +109787,221 @@
         "mods": 0,
         "name": "Angry Birds",
         "nexusmods_url": "https://www.nexusmods.com/angrybirds"
+    },
+    {
+        "approved_date": 1721143667,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Loser Simulator",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "losersimulator",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Simulation",
+        "id": 6593,
+        "mods": 0,
+        "name": "Loser Simulator",
+        "nexusmods_url": "https://www.nexusmods.com/losersimulator"
+    },
+    {
+        "approved_date": 1721143739,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Dungeon Clawler",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "dungeonclawler",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Action",
+        "id": 6594,
+        "mods": 0,
+        "name": "Dungeon Clawler",
+        "nexusmods_url": "https://www.nexusmods.com/dungeonclawler"
+    },
+    {
+        "approved_date": 1721143757,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Eira",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "eira",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Adventure",
+        "id": 6596,
+        "mods": 0,
+        "name": "Eira",
+        "nexusmods_url": "https://www.nexusmods.com/eira"
+    },
+    {
+        "approved_date": 1721143779,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Fabled Lands",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "fabledlands",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "RPG",
+        "id": 6599,
+        "mods": 0,
+        "name": "Fabled Lands",
+        "nexusmods_url": "https://www.nexusmods.com/fabledlands"
+    },
+    {
+        "approved_date": 1721143832,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Once Human",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "oncehuman",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Survival",
+        "id": 6600,
+        "mods": 0,
+        "name": "Once Human",
+        "nexusmods_url": "https://www.nexusmods.com/oncehuman"
+    },
+    {
+        "approved_date": 1721143851,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Capes",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "capes",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Strategy",
+        "id": 6604,
+        "mods": 0,
+        "name": "Capes",
+        "nexusmods_url": "https://www.nexusmods.com/capes"
+    },
+    {
+        "approved_date": 1721143874,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "The Crust",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "thecrust",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Sandbox",
+        "id": 6605,
+        "mods": 0,
+        "name": "The Crust",
+        "nexusmods_url": "https://www.nexusmods.com/thecrust"
+    },
+    {
+        "approved_date": 1721143918,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Little Witch Nobeta",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "littlewitchnobeta",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "RPG",
+        "id": 6606,
+        "mods": 0,
+        "name": "Little Witch Nobeta",
+        "nexusmods_url": "https://www.nexusmods.com/littlewitchnobeta"
     }
 ]
