@@ -100041,6 +100041,31 @@
                 "category_id": 2,
                 "name": "Miscellaneous",
                 "parent_category": 1
+            },
+            {
+                "category_id": 3,
+                "name": "Locomotives",
+                "parent_category": 1
+            },
+            {
+                "category_id": 4,
+                "name": "Rolling Stock",
+                "parent_category": 1
+            },
+            {
+                "category_id": 5,
+                "name": "Liveries &amp; Customisation",
+                "parent_category": 1
+            },
+            {
+                "category_id": 6,
+                "name": "Map",
+                "parent_category": 1
+            },
+            {
+                "category_id": 7,
+                "name": "Utility",
+                "parent_category": 1
             }
         ],
         "domain_name": "railroader",
@@ -105065,7 +105090,7 @@
         "categories": [
             {
                 "category_id": 1,
-                "name": "Alone in the Dark (2024)",
+                "name": "Alone in the Dark",
                 "parent_category": false
             },
             {
@@ -119598,6 +119623,33 @@
         "nexusmods_url": "https://www.nexusmods.com/caravaneer"
     },
     {
+        "approved_date": 1737392222,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Arizona Sunshine Remake",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "arizonasunshineremake",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Action",
+        "id": 7183,
+        "mods": 0,
+        "name": "Arizona Sunshine Remake",
+        "nexusmods_url": "https://www.nexusmods.com/arizonasunshineremake"
+    },
+    {
         "approved_date": 1736160395,
         "authors": 1,
         "categories": [
@@ -119974,5 +120026,221 @@
         "mods": 0,
         "name": "Dice Legacy",
         "nexusmods_url": "https://www.nexusmods.com/dicelegacy"
+    },
+    {
+        "approved_date": 1737387790,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 5,
+                "name": "The First Berserker: Khazan",
+                "parent_category": false
+            },
+            {
+                "category_id": 6,
+                "name": "Miscellaneous",
+                "parent_category": 5
+            }
+        ],
+        "domain_name": "thefirstberserkerkhazan",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Action",
+        "id": 7206,
+        "mods": 0,
+        "name": "The First Berserker: Khazan",
+        "nexusmods_url": "https://www.nexusmods.com/thefirstberserkerkhazan"
+    },
+    {
+        "approved_date": 1737388120,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Skydance's BEHEMOTH",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "skydancesbehemoth",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Adventure",
+        "id": 7209,
+        "mods": 0,
+        "name": "Skydance's BEHEMOTH",
+        "nexusmods_url": "https://www.nexusmods.com/skydancesbehemoth"
+    },
+    {
+        "approved_date": 1737390013,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Epic Battle Fantasy 5",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "epicbattlefantasy5",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Indie",
+        "id": 7210,
+        "mods": 0,
+        "name": "Epic Battle Fantasy 5",
+        "nexusmods_url": "https://www.nexusmods.com/epicbattlefantasy5"
+    },
+    {
+        "approved_date": 1737390105,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Epic Battle Fantasy 4",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "epicbattlefantasy4",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Indie",
+        "id": 7211,
+        "mods": 0,
+        "name": "Epic Battle Fantasy 4",
+        "nexusmods_url": "https://www.nexusmods.com/epicbattlefantasy4"
+    },
+    {
+        "approved_date": 1737390283,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Epic Battle Fantasy 3",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "epicbattlefantasy3",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Indie",
+        "id": 7212,
+        "mods": 0,
+        "name": "Epic Battle Fantasy 3",
+        "nexusmods_url": "https://www.nexusmods.com/epicbattlefantasy3"
+    },
+    {
+        "approved_date": 1737390733,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Heroes of Hammerwatch II",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "heroesofhammerwatch2",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "RPG",
+        "id": 7213,
+        "mods": 0,
+        "name": "Heroes of Hammerwatch II",
+        "nexusmods_url": "https://www.nexusmods.com/heroesofhammerwatch2"
+    },
+    {
+        "approved_date": 1737391072,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Immortal Life",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "immortallife",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Indie",
+        "id": 7214,
+        "mods": 0,
+        "name": "Immortal Life",
+        "nexusmods_url": "https://www.nexusmods.com/immortallife"
+    },
+    {
+        "approved_date": 1737391483,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Sky Force Reloaded",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "skyforcereloaded",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Action",
+        "id": 7215,
+        "mods": 0,
+        "name": "Sky Force Reloaded",
+        "nexusmods_url": "https://www.nexusmods.com/skyforcereloaded"
     }
 ]
