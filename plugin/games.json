@@ -76094,6 +76094,33 @@
         "nexusmods_url": "https://www.nexusmods.com/warno"
     },
     {
+        "approved_date": 1737546246,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Ultima Online",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "ultimaonline",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "MMORPG",
+        "id": 4605,
+        "mods": 0,
+        "name": "Ultima Online",
+        "nexusmods_url": "https://www.nexusmods.com/ultimaonline"
+    },
+    {
         "approved_date": 1656516015,
         "authors": 8,
         "categories": [
@@ -106876,6 +106903,33 @@
         "nexusmods_url": "https://www.nexusmods.com/millennia"
     },
     {
+        "approved_date": 1737559243,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Castlevania - Lords of Shadow - Mirror of Fate HD",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "castlevanialordsofshadowmirroroffatehd",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Metroidvania",
+        "id": 6367,
+        "mods": 0,
+        "name": "Castlevania - Lords of Shadow - Mirror of Fate HD",
+        "nexusmods_url": "https://www.nexusmods.com/castlevanialordsofshadowmirroroffatehd"
+    },
+    {
         "approved_date": 1714043748,
         "authors": 1,
         "categories": [
@@ -107335,6 +107389,60 @@
         "nexusmods_url": "https://www.nexusmods.com/maddennfl24"
     },
     {
+        "approved_date": 1737558467,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Love Too Easily",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "lovetooeasily",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Simulation",
+        "id": 6388,
+        "mods": 0,
+        "name": "Love Too Easily",
+        "nexusmods_url": "https://www.nexusmods.com/lovetooeasily"
+    },
+    {
+        "approved_date": 1737558074,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Peaky Blinders: Masterminds",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "peakyblindersmastermind",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Adventure",
+        "id": 6389,
+        "mods": 0,
+        "name": "Peaky Blinders: Mastermind",
+        "nexusmods_url": "https://www.nexusmods.com/peakyblindersmastermind"
+    },
+    {
         "approved_date": 1715094751,
         "authors": 2,
         "categories": [
@@ -107387,6 +107495,33 @@
         "mods": 1,
         "name": "Immortal Redneck",
         "nexusmods_url": "https://www.nexusmods.com/immortalredneck"
+    },
+    {
+        "approved_date": 1737557680,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Evil Dead: Regeneration",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "evildeadregeneration",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Hack and Slash",
+        "id": 6393,
+        "mods": 0,
+        "name": "Evil Dead: Regeneration",
+        "nexusmods_url": "https://www.nexusmods.com/evildeadregeneration"
     },
     {
         "approved_date": 1715094837,
@@ -108757,6 +108892,33 @@
         "nexusmods_url": "https://www.nexusmods.com/wutheringwaves"
     },
     {
+        "approved_date": 1737548158,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Oddsparks An Automation",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "oddsparksanautomationadventure",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Strategy",
+        "id": 6468,
+        "mods": 0,
+        "name": "Oddsparks: An Automation Adventure",
+        "nexusmods_url": "https://www.nexusmods.com/oddsparksanautomationadventure"
+    },
+    {
         "approved_date": 1717664237,
         "authors": 3,
         "categories": [
@@ -110026,6 +110188,141 @@
         "nexusmods_url": "https://www.nexusmods.com/fightangelspecialedition"
     },
     {
+        "approved_date": 1737544462,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Distraint Deluxe Edition",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "distraintdeluxeedition",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Horror",
+        "id": 6546,
+        "mods": 0,
+        "name": "Distraint: Deluxe Edition",
+        "nexusmods_url": "https://www.nexusmods.com/distraintdeluxeedition"
+    },
+    {
+        "approved_date": 1737542598,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Eyeless Jack",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "eyelessjack",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Horror",
+        "id": 6547,
+        "mods": 0,
+        "name": "Eyeless Jack",
+        "nexusmods_url": "https://www.nexusmods.com/eyelessjack"
+    },
+    {
+        "approved_date": 1737541767,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Lunacy: Saints Rhodes",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "lunacysaintrhodes",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Horror",
+        "id": 6548,
+        "mods": 0,
+        "name": "Lunacy: Saint Rhodes",
+        "nexusmods_url": "https://www.nexusmods.com/lunacysaintrhodes"
+    },
+    {
+        "approved_date": 1737540033,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Nocturnal: Enhanced Edition",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "nocturnal",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Action",
+        "id": 6549,
+        "mods": 0,
+        "name": "Nocturnal",
+        "nexusmods_url": "https://www.nexusmods.com/nocturnal"
+    },
+    {
+        "approved_date": 1737538220,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "The Artful Escape",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "theartfulescape",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Adventure",
+        "id": 6550,
+        "mods": 0,
+        "name": "The Artful Escape",
+        "nexusmods_url": "https://www.nexusmods.com/theartfulescape"
+    },
+    {
         "approved_date": 1736250215,
         "authors": 1,
         "categories": [
@@ -110051,6 +110348,33 @@
         "mods": 1,
         "name": "Yomawari: Lost in the Dark",
         "nexusmods_url": "https://www.nexusmods.com/yomawarilostinthedark"
+    },
+    {
+        "approved_date": 1737478704,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "The Complex",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "thecomplex",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Adventure",
+        "id": 6553,
+        "mods": 0,
+        "name": "The Complex",
+        "nexusmods_url": "https://www.nexusmods.com/thecomplex"
     },
     {
         "approved_date": 1719498765,
@@ -111700,6 +112024,33 @@
         "nexusmods_url": "https://www.nexusmods.com/asduskfalls"
     },
     {
+        "approved_date": 1737477760,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "The First Descendant",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "thefirstdescendant",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Third-Person Shooter",
+        "id": 6655,
+        "mods": 0,
+        "name": "The First Descendant",
+        "nexusmods_url": "https://www.nexusmods.com/thefirstdescendant"
+    },
+    {
         "approved_date": 1722943219,
         "authors": 2,
         "categories": [
@@ -111752,6 +112103,33 @@
         "mods": 1,
         "name": "Geneforge 5: Overthrow",
         "nexusmods_url": "https://www.nexusmods.com/geneforge5overthrow"
+    },
+    {
+        "approved_date": 1737477231,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Internet Cafe Simulator 2",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "internetcafesimulator2",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Simulation",
+        "id": 6666,
+        "mods": 0,
+        "name": "Internet Cafe Simulator 2",
+        "nexusmods_url": "https://www.nexusmods.com/internetcafesimulator2"
     },
     {
         "approved_date": 1723130631,
@@ -115104,6 +115482,33 @@
         "nexusmods_url": "https://www.nexusmods.com/mouthwashing"
     },
     {
+        "approved_date": 1737475886,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Rogue Legacy",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "roguelegacy",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Roguelike",
+        "id": 6877,
+        "mods": 0,
+        "name": "Rogue Legacy",
+        "nexusmods_url": "https://www.nexusmods.com/roguelegacy"
+    },
+    {
         "approved_date": 1728292336,
         "authors": 1,
         "categories": [
@@ -117245,6 +117650,33 @@
         "nexusmods_url": "https://www.nexusmods.com/pusuuyanis"
     },
     {
+        "approved_date": 1737472167,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Project Borealis",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "projectborealis",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Adventure",
+        "id": 7028,
+        "mods": 0,
+        "name": "Project Borealis",
+        "nexusmods_url": "https://www.nexusmods.com/projectborealis"
+    },
+    {
         "approved_date": 1731518631,
         "authors": 1,
         "categories": [
@@ -118269,6 +118701,33 @@
         "mods": 2,
         "name": "We Were Here",
         "nexusmods_url": "https://www.nexusmods.com/wewerehere"
+    },
+    {
+        "approved_date": 1737471151,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Finnish Cottage Simulator",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "finishcottagesimulator",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Simulation",
+        "id": 7099,
+        "mods": 0,
+        "name": "Finnish Cottage Simulator",
+        "nexusmods_url": "https://www.nexusmods.com/finishcottagesimulator"
     },
     {
         "approved_date": 1733754241,
@@ -120242,5 +120701,194 @@
         "mods": 0,
         "name": "Sky Force Reloaded",
         "nexusmods_url": "https://www.nexusmods.com/skyforcereloaded"
+    },
+    {
+        "approved_date": 1737454042,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Area 51 2005",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "area51",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "FPS",
+        "id": 7219,
+        "mods": 0,
+        "name": "Area 51",
+        "nexusmods_url": "https://www.nexusmods.com/area51"
+    },
+    {
+        "approved_date": 1737458279,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "The Pirate: Caribbean Hunt",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "thepiratecaribbeanhunt",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Action",
+        "id": 7221,
+        "mods": 0,
+        "name": "The Pirate: Caribbean Hunt",
+        "nexusmods_url": "https://www.nexusmods.com/thepiratecaribbeanhunt"
+    },
+    {
+        "approved_date": 1737459171,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Tales Of Graces f Remastered",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "talesofgracesfremastered",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "RPG",
+        "id": 7222,
+        "mods": 0,
+        "name": "Tales Of Graces f Remastered",
+        "nexusmods_url": "https://www.nexusmods.com/talesofgracesfremastered"
+    },
+    {
+        "approved_date": 1737460653,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Orcs Must Die Deathtrap",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "orcsmustdiedeathtrap",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Third-Person Shooter",
+        "id": 7224,
+        "mods": 0,
+        "name": "Orcs Must Die Deathtrap",
+        "nexusmods_url": "https://www.nexusmods.com/orcsmustdiedeathtrap"
+    },
+    {
+        "approved_date": 1737462093,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 3,
+                "name": "The Consuming Shadow",
+                "parent_category": false
+            },
+            {
+                "category_id": 4,
+                "name": "Miscellaneous",
+                "parent_category": 3
+            }
+        ],
+        "domain_name": "theconsumingshadow",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Horror",
+        "id": 7225,
+        "mods": 0,
+        "name": "The Consuming Shadow",
+        "nexusmods_url": "https://www.nexusmods.com/theconsumingshadow"
+    },
+    {
+        "approved_date": 1737465245,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "Switchball HD",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "switchballhd",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Puzzle",
+        "id": 7227,
+        "mods": 0,
+        "name": "Switchball HD",
+        "nexusmods_url": "https://www.nexusmods.com/switchballhd"
+    },
+    {
+        "approved_date": 1737468148,
+        "authors": 0,
+        "categories": [
+            {
+                "category_id": 1,
+                "name": "True Crime: New York City",
+                "parent_category": false
+            },
+            {
+                "category_id": 2,
+                "name": "Miscellaneous",
+                "parent_category": 1
+            }
+        ],
+        "domain_name": "truecrimnewyorkcity",
+        "downloads": 0,
+        "file_count": 0,
+        "file_endorsements": 0,
+        "file_views": 0,
+        "forum_url": "https://forums.nexusmods.com/index.php?/forum/",
+        "genre": "Action",
+        "id": 7229,
+        "mods": 0,
+        "name": "True Crime: New York City",
+        "nexusmods_url": "https://www.nexusmods.com/truecrimnewyorkcity"
     }
 ]
