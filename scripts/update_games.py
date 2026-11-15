@@ -4,7 +4,7 @@ import json
 
 import requests
 
-GAMES_JSON = "./plugin/games.json"
+GAMES_JSON = "./src/plugin/games.json"
 API_URL = "https://api.nexusmods.com/v1/games.json"
 
 def retrieve_games(api_key):
