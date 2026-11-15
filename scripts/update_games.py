@@ -1,5 +1,4 @@
 import os
-import sys
 import json
 
 import requests
@@ -58,13 +57,6 @@ def main():
     if changes > 0:
         print("Saving changes..")
         save_games(new_games)
-        sys.exit(1)
-    else:
-        print("Exiting...")
-        sys.exit(0)
-
-
-
 
 
 if __name__ == '__main__':
