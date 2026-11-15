@@ -44,7 +44,7 @@ def mod_results(terms: str, game_id: int) -> List[Result]:
 
 
 def game_results(text: str) -> List[Result]:
-    regex = re.compile(".*?".join(re.escape(char) for char in text.replace(FILTER_KEY, "")))
+    regex = re.compile(".*?".join(re.escape(char) for char in text.replace(FILTER_KEY, "").lower()))
     return [
         Result(
             title=game["name"],

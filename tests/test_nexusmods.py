@@ -81,3 +81,7 @@ def test_mod_from_a_game_missing_from_the_listing_is_still_shown(nexus, session)
 def test_game_filter_text_with_regex_characters_does_not_crash(nexus):
     assert nexusmods.search("(:") == []
     assert titles(nexusmods.search("4:")) == ["Fallout 4"]
+
+
+def test_game_filter_matching_ignores_case(nexus):
+    assert titles(nexusmods.search("Cyber:")) == ["Cyberpunk 2077"]
