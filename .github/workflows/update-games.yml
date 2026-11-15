@@ -1,49 +1,41 @@
-name: "Update Games"
+name: Update games listing
+
 on:
   workflow_dispatch:
   schedule:
-  - cron: "0 0 1-31/2 * *"
+    - cron: "0 0 1-31/2 * *"
+
+permissions:
+  contents: write
 
 jobs:
-  deps:
-    name: "Update"
+  update:
+    name: Update
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
-      - name: Set up Python ${{ env.PYTHON_VER }}
-        uses: actions/setup-python@v2
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
         with:
-          python-version: ${{ env.PYTHON_VER }}
-      - uses: actions/cache@v2
-        if: startsWith(runner.os, 'Linux')
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
+          python-version: "3.12"
+
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests
-      - name: Run Script
-        id: script
-        shell: bash
-        continue-on-error: true
+        run: python -m pip install requests
+
+      - name: Fetch games listing
         env:
           NEXUS_KEY: ${{ secrets.NEXUS_KEY }}
-        run: |
-          python ./scripts/update_games.py "$NEXUS_KEY"
+        run: python scripts/update_games.py
+
       - name: Commit changes
-        if: steps.script.outcome == 'failure'
         run: |
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- src/plugin/games.json; then
+            echo "Games listing is up to date."
+            exit 0
+          fi
           git config user.name "github-actions[bot]"
-          git add ./plugin/games.json
-          git commit -m "Workflow: Update games listing"
-      - name: Push changes
-        if: steps.script.outcome == 'failure'
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          branch: ${{ github.ref }}
-          github_token: ${{ github.token }}
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update games listing" src/plugin/games.json
+          git push

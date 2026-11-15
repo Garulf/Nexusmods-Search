@@ -1,0 +1,77 @@
+{% extends "base.md.j2" %}
+
+{% block usage %}
+> [!WARNING]
+> Mod search is not working right now. The search service on `search.nexusmods.com` that this
+> plugin queries no longer answers, so searches show a "Nexus Mods search failed" result.
+> Listing and picking games still works. See [#2]({{ project.url }}/issues/2) and [#3]({{ project.url }}/issues/3).
+
+## Features
+
+* **Search Nexus Mods from the launcher.** Results show the game and download count.
+* **Filter by game.** Narrow a search to one game, picked from the full Nexus Mods games list.
+* **Straight to the mod page.** `Enter` opens the mod on nexusmods.com in your browser.
+
+## Usage
+
+Type `nx` followed by a mod name, then press `Enter` to open its page:
+
+```
+nx skyui
+```
+
+{{ screenshot("search", alt="Nexus Mods search results in Flow Launcher") }}
+
+| Query | Result |
+| --- | --- |
+| `nx <mod>` | Mods matching the name, across every game |
+| `nx :` | Every game on Nexus Mods |
+| `nx <game>:` | Games whose name matches, e.g. `nx skyrim:` |
+| `nx <domain>:<mod>` | Mods for one game only, e.g. `nx skyrimspecialedition:skyui` |
+
+### Filter by game
+
+Type part of a game's name followed by `:` and pick the game. Selecting it fills in the filter:
+
+{{ screenshot("games", alt="Games matching skyrim listed in Flow Launcher") }}
+
+Then type the mod name after the `:`:
+
+{{ screenshot("filtered", alt="Search limited to Skyrim Special Edition") }}
+
+## Installation
+
+### Flow Launcher
+
+In Flow Launcher, type:
+
+```
+pm install nexusmods-search
+```
+
+{{ screenshot("install", alt="Flow Launcher plugin manager installing Nexusmods-Search") }}
+
+### Manual installation
+
+Download `Nexusmods-Search-<version>.zip` from the [latest release]({{ project.url }}/releases/latest) and unzip it into
+`%appdata%\FlowLauncher\Plugins`, then restart Flow Launcher.
+
+Pre-releases of the next version are published from the open release PR on the
+[releases page]({{ project.url }}/releases) for testing. Flow Launcher won't offer them as updates.
+
+## Requirements
+
+* Flow Launcher 1.17.0 or newer
+* Python 3.8 or newer, which Flow Launcher can install for you
+
+## Changelog
+
+{{ changelog(3) }}
+
+See [CHANGELOG.md](CHANGELOG.md) for the full history.
+{% endblock %}
+
+{% block screenshots %}{% endblock %}
+{% block install %}{% endblock %}
+{% block contributing %}{% endblock %}
+{% block license %}{% endblock %}

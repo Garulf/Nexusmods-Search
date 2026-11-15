@@ -1,10 +1,9 @@
 import os
-import sys
 import json
 
 import requests
 
-GAMES_JSON = "./plugin/games.json"
+GAMES_JSON = "./src/plugin/games.json"
 API_URL = "https://api.nexusmods.com/v1/games.json"
 
 def retrieve_games(api_key):
@@ -28,6 +27,7 @@ def load_games(file=GAMES_JSON):
 def save_games(data):
     with open(GAMES_JSON, 'w') as f:
         json.dump(data, f, sort_keys=True, indent=4)
+        f.write("\n")
 
 def main():
     nexus_key = os.environ.get("NEXUS_KEY")
@@ -58,13 +58,6 @@ def main():
     if changes > 0:
         print("Saving changes..")
         save_games(new_games)
-        sys.exit(1)
-    else:
-        print("Exiting...")
-        sys.exit(0)
-
-
-
 
 
 if __name__ == '__main__':

@@ -1,0 +1,26 @@
+{
+  "keyword": "nx",
+  "query": "skyui",
+  "icon": "../../data/icon.png",
+  "max_results": 3,
+  "selection": 0,
+  "results": [
+    {
+      "title": "SkyUI",
+      "subtitle": "Skyrim Special Edition - Downloads: 32418377",
+      "icon": "../../data/icon.png"
+    },
+    {
+      "title": "SkyUI",
+      "subtitle": "Skyrim - Downloads: 21093514",
+      "icon": "../../data/icon.png"
+    },
+    {
+      "title": "SkyUI - Survival Mode Integration",
+      "subtitle": "Skyrim Special Edition - Downloads: 1287455",
+      "icon": "../../data/icon.png"
+    }
+  ],
+  "query_suggestion": "",
+  "show_caret": false
+}
