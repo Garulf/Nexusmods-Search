@@ -27,6 +27,7 @@ def load_games(file=GAMES_JSON):
 def save_games(data):
     with open(GAMES_JSON, 'w') as f:
         json.dump(data, f, sort_keys=True, indent=4)
+        f.write("\n")
 
 def main():
     nexus_key = os.environ.get("NEXUS_KEY")
