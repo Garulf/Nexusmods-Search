@@ -1,0 +1,31 @@
+{
+  "keyword": "nx",
+  "query": "skyrim:",
+  "icon": "../../data/icon.png",
+  "max_results": 4,
+  "selection": 0,
+  "results": [
+    {
+      "title": "Skyrim",
+      "subtitle": "Filter Search for Skyrim only.",
+      "icon": "../../data/icon.png"
+    },
+    {
+      "title": "Skyrim Special Edition",
+      "subtitle": "Filter Search for Skyrim Special Edition only.",
+      "icon": "../../data/icon.png"
+    },
+    {
+      "title": "Skyrim (Switch)",
+      "subtitle": "Filter Search for Skyrim (Switch) only.",
+      "icon": "../../data/icon.png"
+    },
+    {
+      "title": "Skyrim - PlayStation 4",
+      "subtitle": "Filter Search for Skyrim - PlayStation 4 only.",
+      "icon": "../../data/icon.png"
+    }
+  ],
+  "query_suggestion": "",
+  "show_caret": false
+}
