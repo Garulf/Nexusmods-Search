@@ -71,3 +71,8 @@ def test_apply_filter_changes_the_query_and_keeps_the_window_open(keyword, monke
 def test_query_handler_returns_results(nexus):
     response = asyncio.run(nexusmods.plugin._event_handler.trigger_event("query", "skyui"))
     assert [result["Title"] for result in response["Result"]] == ["SkyUI", "SkyUI"]
+
+
+def test_mod_from_a_game_missing_from_the_listing_is_still_shown(nexus, session):
+    session.payload = {"results": [{"name": "Brand New Mod", "game_id": 99999, "downloads": 12, "url": "/newgame/mods/1"}]}
+    assert nexusmods.search("brand new")[0].subtitle == "Downloads: 12"

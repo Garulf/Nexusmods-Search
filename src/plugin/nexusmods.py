@@ -23,14 +23,19 @@ def full_query(text: str) -> str:
     return f"{keyword} {text}" if keyword else text
 
 
+def mod_subtitle(mod: dict) -> str:
+    downloads = f"Downloads: {mod['downloads']}"
+    game = nexus.game(mod["game_id"])
+    return f"{game['name']} - {downloads}" if game else downloads
+
+
 def mod_results(terms: str, game_id: int) -> List[Result]:
     results = []
     for mod in nexus.search(terms, game_id=game_id)["results"]:
-        game = nexus.game(mod["game_id"])
         results.append(
             Result(
                 title=mod["name"],
-                subtitle=f"{game['name']} - Downloads: {mod['downloads']}",
+                subtitle=mod_subtitle(mod),
                 icon=ICON,
                 auto_complete_text=full_query(mod["name"]),
             ).add_action(plugin.launcher.api.open_url(f"{BASE_URL}{mod['url']}"))
