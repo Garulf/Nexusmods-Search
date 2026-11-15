@@ -76,3 +76,8 @@ def test_query_handler_returns_results(nexus):
 def test_mod_from_a_game_missing_from_the_listing_is_still_shown(nexus, session):
     session.payload = {"results": [{"name": "Brand New Mod", "game_id": 99999, "downloads": 12, "url": "/newgame/mods/1"}]}
     assert nexusmods.search("brand new")[0].subtitle == "Downloads: 12"
+
+
+def test_game_filter_text_with_regex_characters_does_not_crash(nexus):
+    assert nexusmods.search("(:") == []
+    assert titles(nexusmods.search("4:")) == ["Fallout 4"]
