@@ -1,5 +1,7 @@
 import asyncio
 
+import requests
+
 import nexusmods
 from launcher import KEEP_OPEN
 
@@ -81,6 +83,14 @@ def test_mod_from_a_game_missing_from_the_listing_is_still_shown(nexus, session)
 def test_game_filter_text_with_regex_characters_does_not_crash(nexus):
     assert nexusmods.search("(:") == []
     assert titles(nexusmods.search("4:")) == ["Fallout 4"]
+
+
+def test_failed_search_shows_the_error_instead_of_nothing(nexus, session):
+    session.error = requests.ConnectionError("search.nexusmods.com is unreachable")
+    response = asyncio.run(nexusmods.plugin._event_handler.trigger_event("query", "skyui"))
+    assert [(result["Title"], result["SubTitle"]) for result in response["Result"]] == [
+        ("Nexus Mods search failed", "search.nexusmods.com is unreachable")
+    ]
 
 
 def test_game_filter_matching_ignores_case(nexus):

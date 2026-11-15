@@ -6,6 +6,7 @@ from functools import partial
 from pathlib import Path
 from typing import List
 
+import requests
 from pyflowlauncher import Plugin, Result, api
 
 from launcher import KEEP_OPEN, NexusLauncher
@@ -72,6 +73,11 @@ def search(text: str) -> List[Result]:
 async def query(query: str):
     loop = asyncio.get_running_loop()
     return await loop.run_in_executor(None, partial(search, query))
+
+
+@plugin.on_except(requests.RequestException)
+def search_failed(error: requests.RequestException) -> Result:
+    return Result(title="Nexus Mods search failed", subtitle=str(error), icon=ICON)
 
 
 @plugin.on_method
